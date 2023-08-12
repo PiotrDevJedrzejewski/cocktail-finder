@@ -1,0 +1,50 @@
+.info {
+  display: flex;
+  align-items: center;
+  background-color: $color-grey-light;
+
+  &__img {
+    width: 40%;
+    margin: 5rem;
+    border-radius: 5rem;
+    border: 2px solid $color-primary;
+  }
+
+  &__text {
+    font-size: 1.6rem;
+    line-height: 4rem;
+    margin: auto;
+
+    & > p > span {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+
+  &__ingredient {
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  .info {
+    flex-direction: column;
+    align-items: center;
+
+    &__img {
+      width: 80%;
+      margin: 5rem;
+    }
+
+    &__text {
+      font-size: 1.4rem;
+      line-height: 3rem;
+      margin: auto;
+
+      & > p > span {
+        font-size: 1.8rem;
+        font-weight: bold;
+      }
+    }
+  }
+}

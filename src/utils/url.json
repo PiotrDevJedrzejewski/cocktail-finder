@@ -1,0 +1,4 @@
+{
+  "linkSearch": "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=",
+  "linkCocktailID": "https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i="
+}

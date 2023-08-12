@@ -1,0 +1,36 @@
+// COLOR VARIABLES
+$color-primary: #29a994;
+
+$color-secondary: #dde2e9;
+$color-secondary-dark: #848491;
+
+$color-grey-light: #ebf3f3;
+$color-grey-dark: #9ba9b0;
+
+//RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200px
+$bp-large: 62.5em; //1000px
+$bp-medium: 50em; // 800px
+$bp-small: 37.5em; // 600px
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px = 1 rem
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: $color-grey-light;
+  height: 100vh;
+}
